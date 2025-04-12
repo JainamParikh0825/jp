@@ -1,0 +1,6 @@
+.tag {
+  font-size: 0.7rem;
+  padding: 5px;
+  border: 1px solid var(--highlight-text-color);
+  border-radius: 5px;
+}

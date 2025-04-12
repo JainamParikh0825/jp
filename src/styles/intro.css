@@ -20,7 +20,7 @@ h1::after {
   z-index: -1;
 }
 
-p {
+p.description {
   margin-bottom: 20px;
 }
 

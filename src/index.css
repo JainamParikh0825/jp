@@ -8,6 +8,7 @@
   --header-bg-color: hsl(20, 5%, 12%);
   --border-highlight-transparent: 3px solid transparent;
   --border-hightlight-hover: 3px solid hsl(206, 95%, 78%);
+  --highlight-text-color: hsl(206, 95%, 78%);
 }
 
 [data-theme="light"] {
@@ -18,6 +19,7 @@
   --header-bg-color: #fff;
   --border-highlight-transparent: 3px solid transparent;
   --border-hightlight-hover: 3px solid hsl(206, 95%, 78%);
+  --highlight-text-color: hsl(206, 95%, 78%);
 }
 
 * {

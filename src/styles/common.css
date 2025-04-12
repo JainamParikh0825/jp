@@ -8,3 +8,8 @@ hr {
   background-color: var(--border-color);
   margin: 0.5rem 0;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

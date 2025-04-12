@@ -1,6 +1,7 @@
+import { Route, Routes } from "react-router";
 import "./App.css";
 import Header from "./components/Header";
-import Intro from "./components/Intro";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -8,9 +9,9 @@ function App() {
       <Header />
 
       <main>
-        <Intro />
-
-        <hr />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </main>
     </div>
   );
