@@ -1,7 +1,7 @@
 .app-container {
   width: 60%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 
 main {
@@ -10,4 +10,5 @@ main {
   border: 1px solid var(--border-color);
   border-top: none;
   padding: 10px;
+  padding-top: 50px;
 }

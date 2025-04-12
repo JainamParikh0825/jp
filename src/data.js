@@ -81,5 +81,40 @@ export const projects = {
       technologies: ["HTML", "CSS", "JavaScript", "React"],
     },
   ],
-  others: [],
+  others: [
+    {
+      id: 6,
+      name: "Regilog",
+      description:
+        "A Console based Registration-Login System developed using C++, where user can register, login and logout themselves with interactive messages.",
+      githubUrl: "https://github.com/JainamParikh0825/regi-log",
+      liveUrl: null,
+      technologies: ["C++", "Console", "OOPs"],
+    },
+    {
+      id: 7,
+      name: "Kai-bored",
+      description:
+        "A Keyboard Logger which gives you information of which key is pressed and also a history of last 3 keys.",
+      githubUrl: "https://github.com/JainamParikh0825/kai-bored",
+      liveUrl: "https://jainamparikh0825.github.io/kai-bored/",
+      technologies: ["HTML", "CSS", "JavaScript"],
+    },
+    {
+      id: 8,
+      name: "A Clock",
+      description: "A Vanilla JavaScript based Digital Clock.",
+      githubUrl: "https://github.com/JainamParikh0825/a-clock",
+      liveUrl: "https://jainamparikh0825.github.io/a-clock/",
+      technologies: ["HTML", "CSS", "JavaScript"],
+    },
+    {
+      id: 9,
+      name: "New Year Countdown",
+      description: "A Countdown Timer to a New Year.",
+      githubUrl: "https://github.com/JainamParikh0825/a-countdown-timer",
+      liveUrl: "https://a-countdown-timer.vercel.app/",
+      technologies: ["HTML", "CSS", "JavaScript"],
+    },
+  ],
 };

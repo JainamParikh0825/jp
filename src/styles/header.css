@@ -37,7 +37,8 @@ header.header {
   transition: all 0.2s ease;
 }
 
-.right-container nav.navbar ul.nav-list li:hover {
+.right-container nav.navbar ul.nav-list li:hover,
+.right-container nav.navbar ul.nav-list li.active {
   border-bottom: var(--border-hightlight-hover);
 }
 

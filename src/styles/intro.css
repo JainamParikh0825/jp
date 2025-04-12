@@ -1,5 +1,5 @@
 .intro-container {
-  margin-top: 50px;
+  padding-bottom: 30px;
 }
 
 h1 {
@@ -28,5 +28,4 @@ p.description {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-bottom: 50px;
 }
