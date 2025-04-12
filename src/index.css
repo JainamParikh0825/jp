@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --primary-bg-color: #1b1918;
+  --primary-text-color: #fff;
+  --theme-btn-color: hsl(20, 6%, 10%);
+  --border-color: hsl(26, 7%, 19%);
+  --header-bg-color: hsl(20, 5%, 12%);
+  --border-highlight-transparent: 3px solid transparent;
+  --border-hightlight-hover: 3px solid hsl(206, 95%, 78%);
+}
+
+[data-theme="light"] {
+  --primary-bg-color: hsl(30, 33%, 98%);
+  --primary-text-color: hsl(26, 7%, 19%);
+  --theme-btn-color: hsl(30, 33%, 98%);
+  --border-color: hsl(30, 11%, 93%);
+  --header-bg-color: #fff;
+  --border-highlight-transparent: 3px solid transparent;
+  --border-hightlight-hover: 3px solid hsl(206, 95%, 78%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}

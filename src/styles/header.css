@@ -1,0 +1,62 @@
+header.header {
+  border: 1px solid var(--border-color);
+  padding: 5px;
+  border-radius: 1rem;
+  background-color: var(--header-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-container {
+  background-image: url("/images/profile-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 45px;
+  border-radius: 1rem;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.right-container nav.navbar ul.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.right-container nav.navbar ul.nav-list li {
+  cursor: pointer;
+  border-bottom: var(--border-highlight-transparent);
+  transition: all 0.2s ease;
+}
+
+.right-container nav.navbar ul.nav-list li:hover {
+  border-bottom: var(--border-hightlight-hover);
+}
+
+.right-container .theme-container {
+  background-color: var(--theme-btn-color);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+}
+
+.right-container .theme-container:hover {
+  background-color: var(--border-color);
+}
+
+.right-container .theme-container .logo-theme {
+  height: auto;
+  width: 1.2rem;
+}
