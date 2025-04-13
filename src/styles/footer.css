@@ -2,8 +2,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .social-links {
   margin: 0;
+}
+
+@media screen and (max-width: 560px) {
+  footer {
+    flex-direction: column;
+  }
 }

@@ -8,3 +8,9 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
+
+@media screen and (max-width: 560px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,28 @@
+.mobile-nav {
+  background-color: var(--header-bg-color);
+  border-radius: 12px;
+  margin-top: 6px;
+  display: none;
+}
+
+.mobile-nav .mobile-nav-list {
+  padding: 10px;
+}
+
+.mobile-nav .mobile-nav-list li {
+  list-style-type: none;
+  width: max-content;
+  margin: 0 0 10px 10px;
+  padding: 10px 10px 0 0;
+}
+
+.mobile-nav .mobile-nav-list li:hover,
+.mobile-nav .mobile-nav-list li.active {
+  border-bottom: var(--border-hightlight-hover);
+}
+
+@media screen and (max-width: 560px) {
+  .mobile-nav {
+    display: block;
+  }
+}

@@ -11,4 +11,29 @@ main {
   border-top: none;
   padding: 10px;
   padding-top: 50px;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .app-container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .app-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .app-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .app-container {
+    width: 95%;
+  }
 }

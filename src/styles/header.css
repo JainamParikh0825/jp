@@ -22,7 +22,7 @@ header.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .right-container nav.navbar ul.nav-list {
@@ -60,4 +60,31 @@ header.header {
 .right-container .theme-container .logo-theme {
   height: auto;
   width: 1.2rem;
+}
+
+.burger-menu {
+  display: none;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.burger-menu.open {
+  background-color: var(--primary-text-color);
+  border-radius: 12px;
+}
+
+.icon-cancel {
+  color: var(--primary-bg-color);
+}
+
+@media screen and (max-width: 560px) {
+  .right-container nav.navbar ul.nav-list {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
